@@ -16,7 +16,7 @@ function writePassword() {
     var passwordUpper = window.confirm("Would you like to uppercase letters?");
     var passwordNumeric = window.confirm("Would you like to add numbers?");
     var passwordSpecial = window.confirm("Would you like special characters?");
-    var fries = window.confirm("Would you like fries with that?");
+    //var fries = window.confirm("Would you like fries with that?");
 
 
 // Characters generator will use 
@@ -56,11 +56,11 @@ function writePassword() {
     
 
 
-    if (fries === true) {
+    /*if (fries === true) {
       emptyString += fries;
     } else {
       window.alert ("I guess you don't like fries :(")
-    }
+    }*/
     
   }
 
