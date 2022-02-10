@@ -1,5 +1,7 @@
 # Non-Shall-Password
+HTML,CSS, and JavaScript were used in the making of this website.
 
+Psyche Laveau
 ## Description
 A website that generates a password
 
