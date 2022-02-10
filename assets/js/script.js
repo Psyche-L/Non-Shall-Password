@@ -19,15 +19,48 @@ function writePassword() {
     var fries = window.confirm("Would you like fries with that?");
 
 
-// Characters generater will use 
+// Characters generator will use 
     var emptyString = "";
     var stringLower = "abcdefghijklmnopqrstuvwxyz";
     var stringUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var stringNumeric = "0123456789"
     var stringSpecial = "+_)(*&^%$#@!~`<>?:{}|"
 
+//Characters denied response window  
+    if (passwordUpper === true) {
+      emptyString += stringUpper;
+    }else {
+      window.alert ("You have denied uppercase letters.")
+    }
 
 
+    if (passwordLower === true) {
+      emptyString += stringLower;
+    } else {
+      window.alert ("You have denied lowercase letters.")
+    }
+
+
+    if (passwordNumeric === true) {
+      emptyString += stringNumeric;
+    }else {
+      window.alert ("You denied numeric characters.")
+    }
+
+
+    if (passwordSpecial === true) {
+      emptyString += stringSpecial;
+    } else {
+      window.alert ("You have denied special characters.")
+    }
+    
+
+
+    if (fries === true) {
+      emptyString += fries;
+    } else {
+      window.alert ("I guess you don't like fries :(")
+    }
     
   }
 
