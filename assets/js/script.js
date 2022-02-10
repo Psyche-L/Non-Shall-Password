@@ -64,6 +64,16 @@ function writePassword() {
     
   }
 
+  var password = "";
+  for (var i = 0; i < passwordLength; i++) {
+    password += emptyString.charAt(
+      Math.floor(Math.random() * emptyString.length)
+    );
+  }
+  console.log(password)
+  passwordText.textContent = password;
+  return password;
+
   passwordText.value = password;
 
 }
