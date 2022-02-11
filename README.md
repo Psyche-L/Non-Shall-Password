@@ -16,5 +16,7 @@ To deploy this project run
 or go to my github click on this link to the repository and clone it here https://github.com/Psyche-L/Non-Shall-Password
 ## Easter egg
 Comments out code for extra fun if you choose to do so; feel free to take a look and try it out.
+## Known Bugs
+None.
 
 
