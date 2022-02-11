@@ -18,5 +18,9 @@ or go to my github click on this link to the repository and clone it here https:
 Comments out code for extra fun if you choose to do so; feel free to take a look and try it out.
 ## Known Bugs
 None.
+## Contact
+Email: sptheseve@gmail.com
+
+LinkIn: https://www.linkedin.com/in/psyche-laveau-280b78229/
 
 
