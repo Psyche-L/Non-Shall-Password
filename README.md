@@ -17,7 +17,7 @@ or go to my github click on this link to the repository and clone it here https:
 ## Easter egg
 Comments out code for extra fun if you choose to do so; feel free to take a look and try it out.
 ## Known Bugs
-None.
+Screen shot in readME.md. I posted the screen shot in issues. Click the link https://github.com/Psyche-L/Non-Shall-Password/issues
 ## Contact
 Email: sptheseve@gmail.com
 
