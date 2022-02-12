@@ -24,5 +24,7 @@ Email: sptheseve@gmail.com
 LinkIn: https://www.linkedin.com/in/psyche-laveau-280b78229/
 ## Technology Used
 HTML CSS JavaScript
+
+
 ![Alt text](assets/css/images/sc Small.png? raw=true"Password Generator")
 
