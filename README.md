@@ -26,5 +26,5 @@ LinkIn: https://www.linkedin.com/in/psyche-laveau-280b78229/
 HTML CSS JavaScript
 
 
-![Alt text](assets/css/images/sc Small.png? raw=true"Password Generator")
+![Image](assets/css/images/sc Small.png? raw=true)
 
