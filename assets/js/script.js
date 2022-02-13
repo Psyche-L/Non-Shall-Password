@@ -8,7 +8,7 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var passwordText = document.querySelector("#password");
   var passwordLength = window.prompt(
-    "Choose password length");
+    "Choose password length between 8 - 128.");
 
 
   if (passwordLength >= 8 && passwordLength <= 128) {
@@ -16,7 +16,7 @@ function writePassword() {
     var passwordUpper = window.confirm("Uppercase letters?");
     var passwordNumeric = window.confirm("Numbers?");
     var passwordSpecial = window.confirm("Special characters?");
-    //var fries = window.confirm("Would you like fries with that?");
+    var fries = window.confirm("Would you like fries with that?");
 
 
 // Characters generator will use 
@@ -24,9 +24,9 @@ function writePassword() {
     var stringLower = "abcdefghijklmnopqrstuvwxyz";
     var stringUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var stringNumeric = "0123456789"
-    var stringSpecial = "+_)(*&^%$#@!~`<>?:{}|"
+    var stringSpecial = "=+-_)(*&^%$#@!"
 
-//Characters denied response window  
+//Characters denied response window 
     if (passwordUpper === true) {
       emptyString += stringUpper;
     }else {
@@ -56,11 +56,11 @@ function writePassword() {
     
 
 
-    /*if (fries === true) {
+    if (fries === true) {
       emptyString += fries;
     } else {
       window.alert ("I guess you don't like fries :(")
-    }*/
+    }
     
   }
 
