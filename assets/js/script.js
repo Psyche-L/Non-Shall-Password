@@ -8,14 +8,14 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var passwordText = document.querySelector("#password");
   var passwordLength = window.prompt(
-    "How many characters would you like to have? (Choose between 8 and 128)"
+    "Choose password length");
 
-  );
+
   if (passwordLength >= 8 && passwordLength <= 128) {
-    var passwordLower = window.confirm("Would you like lowercase letters?");
-    var passwordUpper = window.confirm("Would you like to uppercase letters?");
-    var passwordNumeric = window.confirm("Would you like to add numbers?");
-    var passwordSpecial = window.confirm("Would you like special characters?");
+    var passwordLower = window.confirm("Lowercase letters?");
+    var passwordUpper = window.confirm("Uppercase letters?");
+    var passwordNumeric = window.confirm("Numbers?");
+    var passwordSpecial = window.confirm("Special characters?");
     //var fries = window.confirm("Would you like fries with that?");
 
 

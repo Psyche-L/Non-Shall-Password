@@ -26,5 +26,5 @@ LinkIn: https://www.linkedin.com/in/psyche-laveau-280b78229/
 HTML CSS JavaScript
 
 
-![Image](assets/css/images/sc Small.png? raw=true)
+![](assets/css/images/sch.png?raw=true)
 
